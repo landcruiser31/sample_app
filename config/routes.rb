@@ -1,5 +1,4 @@
 SampleApp::Application.routes.draw do
-  get "static_pages/..."
   get "static_pages/home"  #..maps requests for the URL /static_pages/home to the home action in the StaticPages controller
   get "static_pages/help"
   # The priority is based upon order of creation: first created -> highest priority.
